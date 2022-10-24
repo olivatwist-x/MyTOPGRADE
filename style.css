@@ -12,14 +12,14 @@ img {
 
 header {
     width: 100%;
-    height: 100px;
+    height: 120px;
     background-color: #FFBD00;
     box-shadow: 0px 5.82118px 29.1059px rgba(0, 0, 0, 0.25);
 }
 
 header img {
-    width: 130px;
-    height: 90px;
+    width: 118px;
+    height: 100px;
     margin-left: 50px;
 }
 
@@ -36,7 +36,7 @@ nav ul {
 nav ul li {
     list-style: none;
     line-height: 31px;
-    padding: 47px 40px 53.48px 0;
+    padding: 50px 40px 36px 0;
 }
 
 nav ul li a {
@@ -44,7 +44,7 @@ nav ul li a {
     display: block;
     color: #FFFFFF;
     font-weight: 400;
-    font-size: 26.45px;
+    font-size: 18px;
 }
 
 nav ul li:first-child{
@@ -55,12 +55,16 @@ nav .btn {
     display: inline;
     width: 183.56px;
     height: 60.39px;
-    padding: 7px 35px;
+    padding: 10px 40px;
     border-radius: 29.3889px;
 }
 
-nav .btn:nth-child(1) {
-    margin-left: 40px;
+nav ul li:nth-child(7) {
+    margin-left: 150px;
+}
+
+nav ul li:nth-child(8) {
+    margin-left: 81px;
 }
 
 .btn {
@@ -81,7 +85,7 @@ nav .btn:nth-child(1) {
 div.introduction {
     background-color: #FFBD00;
     width: 100%;
-    height: 500px;
+    height: 560px;
     margin-top: 10px;
     display: inline-flex;
 }
@@ -109,22 +113,22 @@ div.introduction div p {
 }
 
 div.introduction div div {
-    margin-top: 30px;
+    margin-top: 80px;
 }
 
 div.introduction div div a:nth-child(2){
-    margin: 190px 120px;
+    margin: 0 60px;
 }
 
 div.introduction div div a img {
-    height: 50px;
+    height: 64px;
     width: 248.65px;
     margin-bottom: -13px;     
     /* display: inline; */
 }
 
 div.introduction div div .btn {
-    padding: 8px 50px;
+    padding: 17px 58px;
     border-radius: 40.1578px;
     font-weight: 400;
     font-size: 30px;
@@ -133,7 +137,7 @@ div.introduction div div .btn {
 
 .introduction-img {
     width: 100%;
-    height: 500px;
+    height: 100%;
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
 
@@ -151,7 +155,7 @@ div.about > div > h1 {
     line-height: 62px;
     color: #000070;
     letter-spacing: 3px;
-    margin-bottom: 10px;
+    margin-bottom: 17px;
 }
 
 div.about > div > p {
@@ -166,32 +170,32 @@ span {
 div.about .carousel {
     display: flex;
     flex-direction: row;
-    margin: 50px 0 70px 0;
+    margin: 43px 0 70px 0;
     justify-content: center;
 }
 
 div.about .carousel div {
     width: 25%;
-    height: 300px;
+    height: 307px;
     justify-content: center;
     margin: 2%;
     border: 2px solid black;
 }
 
 div.about .carousel div img {
-    width: 130px;
-    height: 130px;
+    width: 168px;
+    height: 168px;
 }
 
 div.about .carousel div h1 {
     font-weight: 800px;
-    font-size: 35px;
+    font-size: 25px;
     margin: 15px 0;
 }
 
 div.about .carousel div p {
     font-weight: 400px;
-    font-size: 16px;
+    font-size: 15px;
     line-height: 23px;
 }
 
@@ -201,12 +205,12 @@ div.about .about-topgrade {
 }
 
 div.about .about-topgrade h1 {
-    font-size: 53px;
-    font-weight: 800;
+    font-size: 37px;
+    font-weight: 800px;
     line-height: 62px;
     letter-spacing: 0.065em;
     color: #000070;
-    padding-bottom: 50px;
+    padding-bottom: 43px;
 }
 
 div.about .about-topgrade p {
@@ -225,14 +229,14 @@ div.subjects {
 
 div.subjects h1 {
     color: #000070;
-    padding: 70px 0 70px;
-    font-size: 70px;
-    font-weight: 700;
+    padding: 50px 0 70px;
+    font-size: 55px;
+    font-weight: 700px;
 }
 
 div.subjects p {
     font-weight: 400;
-    font-size: 35px;
+    font-size: 28px;
 }
 
 div.subjects .subjects-list {
@@ -256,14 +260,52 @@ div.subjects .subjects-list img{
 
 div.subjects .subjects-list div p {
     font-weight: 700px;
-    font-size: 30px;
+    font-size: 22px;
     margin: 10px 0 40px;
+}
+
+div.subjects .subjects-list div:nth-child(1) {
+    color: #861B47;
+    ;
+}
+
+div.subjects .subjects-list div:nth-child(2) {
+    color: #1B70A0;
+}
+
+div.subjects .subjects-list div:nth-child(3) {
+    color: #FC611F;
+}
+
+div.subjects .subjects-list div:nth-child(4) {
+    color: #03C9A8;
+}
+
+div.subjects .subjects-list div:nth-child(5) {
+    color: #FDBC00;
+}
+
+div.subjects .subjects-list div:nth-child(6) {
+    color: #FFAD00;
 }
 
 div.subjects a {
     padding: 15px 80px;
     width: 100px;
     height: 50px;
-    border-radius: 25px;
+    border-radius: 20px;
     font-size: 28px
+}
+
+div.section-one {
+    text-align: center;
+    width: 100%;
+    height: 1200px;
+    /* background: rgba(217, 217, 255, 0.3); */
+}
+
+div.section-one .features > h1 {
+    font-weight: 700px;
+    font-size: 70px;
+    margin-top: 50px;
 }
