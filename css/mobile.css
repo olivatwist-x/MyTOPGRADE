@@ -202,3 +202,248 @@ div.introduction div div a:nth-child(2) {
 .introduction button {
     display: none;
 }
+
+div.about {
+    height: 100%;
+    margin-top: 25px;
+}
+
+div.about > div > h1 {
+    font-weight: 800;
+    font-size: 25px;
+    letter-spacing: 2px;
+    margin-bottom: 13px;
+}
+
+div.about > div > p {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+}
+
+div.about .carousel {
+    display: block;
+    margin: 90px 0 70px 0;
+    justify-content: center;
+    text-align: center;
+}
+
+div.about .carousel div {
+    width: 100%;
+    height: 307px;
+    justify-content: center;
+    margin: 2%;
+    margin-bottom: 85px;
+    /* border: 2px solid black; */
+}
+
+div.about .carousel div h1 {
+    margin: 25px 0;
+}
+
+div.about .carousel div p {
+    font-weight: 400px;
+    font-size: 15px;
+    line-height: 23px;
+    padding: 0 40px;
+}
+
+div.about .about-topgrade h1 {
+    font-size: 25px;
+    font-weight: 800px;
+    letter-spacing: 0.065em;
+    padding-bottom: 30px;
+}
+
+div.about .about-topgrade p {
+    font-size: 18px;
+    font-weight: 400px;
+    line-height: 24px;
+    padding: 0 40px 0 40px;
+    text-align: left;
+}
+
+div.subjects {
+    height: 3150px;
+    border-radius: 0;
+}
+
+div.subjects h1 {
+    font-size: 35px;
+    padding: 50px 0 40px;
+    letter-spacing: 1.5px;
+}
+
+div.subjects p {
+    font-weight: 400;
+    font-size: 20px;
+    margin-bottom: 140px;
+}
+
+div.subjects .subjects-list {
+    width: 100%;
+    margin: 60px 0;
+    display: block;
+}
+
+div.subjects .subjects-list div {
+    margin-bottom: 90px;
+}
+
+div.subjects .subjects-list div p {
+    margin: 10px 0 40px;
+}
+
+div.subjects a {
+    padding: 10px 50px;
+}
+/* 
+div.section-one {
+    text-align: center;
+    width: 100%;
+    height: 1700px;
+} */
+
+div.section-one .features > h1 {
+    font-weight: 700px;
+    font-size: 50px;
+    margin: 50px 0 60px;
+}
+
+div.section-one .features > p {
+    font-weight: 400px;
+    font-size: 17px;
+    padding: 0 30px;
+    line-height: 25px;
+}
+
+div.section-one .features-list {
+    margin: 60px 0;
+    display: grid;
+    row-gap: 10px;
+    grid-template-areas: "box-1 box-2 box-3";
+}
+ 
+div.section-one .features-list div{
+    height: 370px;
+    background: #FFFFFF;
+    box-shadow: 0px 4.07873px 24.4724px rgba(0, 0, 0, 0.25);
+    border-radius: 36.7486px;
+}
+
+div.section-one .features-list div:nth-child(1) {
+    margin: 0 50px 0 180px;
+}
+
+
+div.section-one .features-list div:nth-child(3) {
+    margin: 0 180px 0 50px;
+}
+
+div.section-one .features-list div img {
+    height: 170px;
+    width: 170px;
+    margin: 10px 0 30px;
+}
+
+div.section-one .features-list div hr {
+    background-color: #000070;;
+    height: 2px;
+    margin: 0 30px;
+}
+
+div.section-one .features-list div h1 {
+    font-weight: 800;
+    font-size: 30px;
+    color: #000070;
+    margin: 10px 0 20px;
+}
+
+div.section-one .features-list div p {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 20px;
+    margin: 0 6px;
+}
+
+div.testimonials > h1 {
+    font-weight: 800;
+    font-size: 60px;
+    margin-bottom: 37px;
+}
+
+div.testimonials > p {
+    font-weight: 400x;
+    font-size: 30px;
+    margin-bottom: 25px;
+}
+
+div.testimonials > div {
+    display: flex;
+    flex-direction: row;
+}
+
+div.testimonials .testimonials-list div {
+    width: 520px;
+    height: 300px;
+    box-shadow: 0px 3.26936px 19.6162px rgba(0, 0, 0, 0.25);
+    border-radius: 12.9738px;
+    margin-left: 50px;
+    text-align: left;
+}
+
+div.testimonials .testimonials-list div img {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    margin: 17px 0 0 37px ;
+}
+
+div.testimonials .testimonials-list div section {
+    display: flex;
+    flex-direction: row;
+}
+
+div.testimonials .testimonials-list div section p {
+    font-size: 20px;
+    margin: 50px 0 0 30px;
+}
+
+div.testimonials .testimonials-list div section p span {
+    color: #9A9A9A;
+    margin-top: 10px;
+}
+
+div.testimonials .testimonials-list p {
+    font-weight: 600px;
+    font-size: 18px;
+    margin: 20px 30px 0 160px;
+}
+
+div.testimonials-list .display-none {
+    display: none;
+}
+
+div.section-one .testimonials-end h1 {
+    color: #000070;
+    font-weight: 600px;
+    font-size: 35px;
+    margin: 50px 0 60px;
+}
+
+div.section-one .testimonials-end p {
+    font-weight: 400px;
+    font-size: 20px;
+    line-height: 27px;
+}
+
+div.section-one .testimonials-end:nth-child(4) {
+    margin-bottom: 70px;
+}
+
+div.section-one .testimonials-end a {
+    padding: 17px 58px;
+    border-radius: 40px;
+    font-weight: 400px;
+    font-size: 25px;
+}

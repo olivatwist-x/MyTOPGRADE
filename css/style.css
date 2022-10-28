@@ -271,14 +271,14 @@ div.subjects .subjects-list div {
 }
 
 div.subjects .subjects-list img{
-    height: 200px;
-    width: 200px;
+    height: 300px;
+    width: 300px;
     border-radius: 10%;
 }
 
 div.subjects .subjects-list div p {
-    font-weight: 700px;
-    font-size: 22px;
+    font-weight: 900px;
+    font-size: 30px;
     margin: 10px 0 40px;
 }
 
@@ -325,6 +325,7 @@ div.section-one .features > h1 {
     font-weight: 700px;
     font-size: 70px;
     margin: 80px 0 50px;
+    color: #000070;
 }
 
 div.section-one .features > p {
