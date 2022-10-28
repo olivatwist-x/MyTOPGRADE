@@ -15,12 +15,17 @@ header {
     height: 120px;
     background-color: #FFBD00;
     box-shadow: 0px 5.82118px 29.1059px rgba(0, 0, 0, 0.25);
+    display: flex;
 }
 
 header img {
     width: 118px;
     height: 100px;
-    margin-left: 50px;
+    margin: 9px 100px 0 50px;
+}
+
+.menu-wrap {
+    display: none;
 }
 
 nav {
@@ -47,10 +52,6 @@ nav ul li a {
     font-size: 18px;
 }
 
-nav ul li:first-child{
-    padding: 0 80px 0 0;
-}
-
 nav .btn {
     display: inline;
     width: 183.56px;
@@ -59,11 +60,11 @@ nav .btn {
     border-radius: 29.3889px;
 }
 
-nav ul li:nth-child(7) {
+nav ul li:nth-child(6) {
     margin-left: 150px;
 }
 
-nav ul li:nth-child(8) {
+nav ul li:nth-child(7) {
     margin-left: 81px;
 }
 
@@ -86,7 +87,7 @@ div.introduction {
     background-color: #FFBD00;
     width: 100%;
     height: 560px;
-    margin-top: 10px;
+    margin-top: 7px;
     display: inline-flex;
 }
 
@@ -95,7 +96,6 @@ div.introduction div:first-child {
 }
 
 div.introduction div h1 {
-    width: 694.18px;
     height: 166px;
     color: #000070;
     font-weight: 600;
@@ -123,8 +123,7 @@ div.introduction div div a:nth-child(2){
 div.introduction div div a img {
     height: 64px;
     width: 248.65px;
-    margin-bottom: -13px;     
-    /* display: inline; */
+    margin-bottom: -13px;
 }
 
 div.introduction div div .btn {
@@ -138,7 +137,26 @@ div.introduction div div .btn {
 .introduction-img {
     width: 100%;
     height: 100%;
+    margin-left: 30px;
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.introduction button {
+    position: absolute;
+    width: 115px;
+    height: 115px;
+    left: 1320px;
+    top: 600px;
+    border: none;
+    border-radius: 50%;
+    background: linear-gradient(135.32deg, #2343E0 8.96%, #0AA5F6 88.88%);
+}
+
+.introduction button img {
+    text-align: center;
+    height: 40px;
+    width: 40px;
+    padding-top: 10px;
 }
 
 div.about {
@@ -179,7 +197,7 @@ div.about .carousel div {
     height: 307px;
     justify-content: center;
     margin: 2%;
-    border: 2px solid black;
+    /* border: 2px solid black; */
 }
 
 div.about .carousel div img {
@@ -201,7 +219,7 @@ div.about .carousel div p {
 
 div.about .about-topgrade {
     height: 740px;
-    border: 3px solid black;
+    /* border: 3px solid black; */
 }
 
 div.about .about-topgrade h1 {
@@ -300,7 +318,7 @@ div.subjects a {
 div.section-one {
     text-align: center;
     width: 100%;
-    height: 1900px;
+    height: 1700px;
 }
 
 div.section-one .features > h1 {
@@ -323,7 +341,7 @@ div.section-one .features-list {
 }
  
 div.section-one .features-list div{
-    height: 380px;
+    height: 370px;
     background: #FFFFFF;
     box-shadow: 0px 4.07873px 24.4724px rgba(0, 0, 0, 0.25);
     border-radius: 36.7486px;
@@ -367,9 +385,190 @@ div.section-one .features-list div p {
 div.testimonials > h1 {
     font-weight: 800;
     font-size: 60px;
+    margin-bottom: 37px;
 }
 
 div.testimonials > p {
     font-weight: 400x;
     font-size: 30px;
+    margin-bottom: 25px;
+}
+
+div.testimonials > div {
+    display: flex;
+    flex-direction: row;
+}
+
+div.testimonials .testimonials-list div {
+    width: 520px;
+    height: 300px;
+    box-shadow: 0px 3.26936px 19.6162px rgba(0, 0, 0, 0.25);
+    border-radius: 12.9738px;
+    margin-left: 50px;
+    text-align: left;
+}
+
+div.testimonials .testimonials-list div img {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    margin: 17px 0 0 37px ;
+}
+
+div.testimonials .testimonials-list div section {
+    display: flex;
+    flex-direction: row;
+}
+
+div.testimonials .testimonials-list div section p {
+    font-size: 20px;
+    margin: 50px 0 0 30px;
+}
+
+div.testimonials .testimonials-list div section p span {
+    color: #9A9A9A;
+    margin-top: 10px;
+}
+
+div.testimonials .testimonials-list p {
+    font-weight: 600px;
+    font-size: 18px;
+    margin: 20px 30px 0 160px;
+}
+
+div.testimonials-list .display-none {
+    display: none;
+}
+
+div.section-one .testimonials-end h1 {
+    color: #000070;
+    font-weight: 600px;
+    font-size: 35px;
+    margin: 50px 0 60px;
+}
+
+div.section-one .testimonials-end p {
+    font-weight: 400px;
+    font-size: 20px;
+    line-height: 27px;
+}
+
+div.section-one .testimonials-end:nth-child(4) {
+    margin-bottom: 70px;
+}
+
+div.section-one .testimonials-end a {
+    padding: 17px 58px;
+    border-radius: 40px;
+    font-weight: 400px;
+    font-size: 25px;
+}
+
+div.contact {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 700px;
+    background-color: #F5B100;
+}
+
+div.contact div {
+    width: 47%;
+}
+
+div.contact div img {
+    width: 70%;
+    height: 80%;
+    margin: 50px 0 0 200px;
+}
+
+div.contact .contact-us {
+    display: block;
+    text-align: center;
+    width: 100%;
+}
+
+div.contact .contact-us h1 {
+    color: #FFFFFF;
+    font-size: 80px;
+    font-weight: 800px;
+    margin: 60px 0 40px;
+    letter-spacing: 0.065em;
+}
+
+div.contact .contact-us input, textarea {
+    width: 45%;
+    margin: 10px 0;
+    padding: 13px 30px;
+    font-size: 20px;
+    border-radius: 17px;
+    border: none;
+}
+
+div.contact .contact-us p {
+    margin-top: 20px;
+}
+
+div.contact .contact-us a {
+    margin: 20px 0 0 260px;
+    padding: 15px 58px;
+    border-radius: 40px;
+    font-weight: 400px;
+    font-size: 25px;
+    border-radius: 17px;
+}
+
+footer {
+    background-color: #051E13;
+    display: flex;
+    width: 100%;
+    height: 500px;
+    text-align: center;
+    color: #FFFFFF;
+    /* padding: 0 100px; */
+}
+
+footer div:nth-child(1) {
+    margin: 50px 120px 80px 80px;
+}
+
+footer div > img {
+    width: 180px;
+    height: 151px;
+    margin-bottom: 30px;
+}
+
+footer div p a img {
+    width: 220px;
+    height: 60px;
+}
+
+footer div div {
+    text-align: left;
+    font-size: 15px;
+    font-weight: 600px;
+    margin-top: 40px;
+}
+
+footer .copyright {
+    font-size: 18px;
+    font-weight: 600px;
+    margin-top: 90px;
+}
+
+footer .options {
+    margin:80px 80px 0 0;
+    text-align: left;
+}
+
+footer .options h1 {
+    font-weight: 600px;
+    font-size: 25px;
+    margin-bottom: 35px;
+}
+
+footer .options p {
+    font-weight: 600px;
+    font-size: 14px;
+    margin-bottom: 10px;
 }
