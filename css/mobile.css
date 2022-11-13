@@ -163,7 +163,7 @@ div.nav {
 div.introduction {
     background-color: #FFBD00;
     width: 100%;
-    height: 792px;
+    height: 100%;
     display: block;
 }
 
@@ -350,7 +350,7 @@ div.testimonials > p {
     margin-bottom: 70px;
 }
 
-div.testimonials .testimonials-list div {
+div.testimonials .testimonials-list div div .user-text {
     width: 330px;
     height: 250px;
     margin-left: 20px;
@@ -375,28 +375,29 @@ div.testimonials .testimonials-list p {
 }
 
 .slide-row {
-    display: block;
+    display: flex;
+    width: 100%;
+    transition: 0.5s;
 }
-
 
 .slide-col {
     position: relative;
 }
 
 .container {
-    position: relative;
-    /* transform: translate(-50%,-50%); */
+    position: absolute;
+    transform: translate(-50%,-50%);
 }
 
 .indicator {
-    position: inherit;
+    position: relative;
     left: 50%;
     transform: translateX(-50%);
     margin-top: 40px;
 }
 
 .btn-slide {
-    display: none;
+    display: inline-block;
     height: 15px;
     width: 15px;
     margin: 4px;
@@ -422,6 +423,16 @@ div.section-one .testimonials-end h1 {
 div.section-one .testimonials-end p {
     font-size: 19px;
     line-height: 27px;
+}
+
+div.section-one .testimonials-end a {
+    padding: 14px 45px;
+    font-size: 22px;
+}
+
+div.section-one .testimonials-end a img {
+    width: 200px;
+    height: 50px;
 }
 
 div.contact {

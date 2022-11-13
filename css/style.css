@@ -145,6 +145,7 @@ div.introduction div div .btn {
     border: none;
     border-radius: 50%;
     background: linear-gradient(135.32deg, #2343E0 8.96%, #0AA5F6 88.88%);
+    cursor: pointer;
 }
 
 .introduction button img {
@@ -494,7 +495,7 @@ div.section-one .testimonials-end a {
 div.section-one .testimonials-end a img {
     width: 220px;
     height: 60px;
-    margin-left: -130px;
+    margin-top: 40px;
     border-radius: 15px;
 }
 
